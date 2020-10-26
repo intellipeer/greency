@@ -200,6 +200,18 @@ export default function Info(){
 
 Go to the src/components/Home folder and create Device.jsx.
 
+## Creating API call for Device
+
+We are going to install Axios. To do that, run the following command in the root folder of the project:
+
+```bash
+npm i axios --save
+```
+
+Let's open the Device.jsx in your code editor. I have set a local state with data because we are going to get some device data from the API.
+
+I'm going to use an API I created on the Heroku website (https://greency-id-api.herokuapp.com/api/v1/devices). To get the data, I’ll use the axios package installed earlier from NPM. Let’s add the code below to Device.jsx and create a call:
+
 ```bash
 import React,{ useState,useEffect } from 'react';
 import axios from 'axios';
@@ -495,6 +507,7 @@ export default function Device2(){
     )
 }
 ```
+
 # Step 13 — App.js and Deploying it
 
 We are going to install React Router. To do that, run the following command in the root folder of the project:
@@ -544,6 +557,14 @@ We are importing Route, Switch, and BrowserRouter from the react-router-dom NPM 
 The way React Router works is by defining what I call a routing region. Inside this region, you will have two things:
 - Your navigation links
 - The container to load your content into
+
+
+# Step 13 — Creating API call for Device
+
+Let's reopen the code of the Device.jsx in the src/components/Home folder in your code editor.
+
+# Step 14 — Creating API call for Network
+
 
 # Installation
 
