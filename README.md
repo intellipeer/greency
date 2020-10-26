@@ -41,7 +41,7 @@ npm start
 
 This would automatically open a web page. You can also type http://localhost:3000/ in your browser's URL bar.
 
-(public/initreactapp.png)
+!(public/initreactapp.png)
 
 # Installation
 
