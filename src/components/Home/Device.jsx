@@ -4,18 +4,16 @@ import {Grid,Paper,Typography,Button} from '@material-ui/core'
 
 export default function Device(){
 const [data, setData] = useState([]);
-    useEffect(async () => {
-       
-        
-            await axios.get(
-                'https://greency-id-api.herokuapp.com/api/v1/devices'
-              ).then(result=>{
-                  
-                  setData({device:result.data[0].device,moisture:result.data[0].moisture,humidity:result.data[0].humidity});
-              
-              })
-        
-      });
+useEffect(() => {
+
+    const fetchData = async () => {
+        const result = await axios.get('https://greency-id-api.herokuapp.com/api/v1/devices');
+        setData({device:result.data[0].device,moisture:result.data[0].moisture,humidity:result.data[0].humidity});
+    }
+
+    fetchData();
+
+}, []);
     
     
     

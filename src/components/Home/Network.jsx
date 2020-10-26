@@ -4,17 +4,18 @@ import {Grid,Typography,Button,Paper} from '@material-ui/core'
 
 export default function Network(){
     const [data, setData] = useState([]);
-    useEffect(async () => {
-       
+    useEffect(() => {
+
+            const fetchData = async () => {
+                const result = await axios.get('https://greency-id-api.herokuapp.com/api/v1/devices');
+                setData({device:result.data[1].device,moisture:result.data[1].moisture,humidity:result.data[1].humidity});
+            }
+
+            fetchData();
         
-            await axios.get(
-                'https://greency-id-api.herokuapp.com/api/v1/devices'
-              ).then(result=>{
-                  
-                  setData({device:result.data[1].device,moisture:result.data[1].moisture,humidity:result.data[1].humidity});
-              })
-        
-      });
+        }, []);
+
+
       const timeElapsed = Date.now();
 const today = new Date(timeElapsed);
     
