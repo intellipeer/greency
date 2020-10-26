@@ -58,6 +58,8 @@ npm install -s @material-ui/icons
 
 # Step 3 — Navigation Bar
 
+![Initial App](public/navbar.png)
+
 # Installation
 
 Clone this repository on your local machine:
