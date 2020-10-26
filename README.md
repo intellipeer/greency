@@ -280,6 +280,24 @@ useEffect(() => {
 }
 ```
 
+In the code above, I fetched data from the API and saved in our state. Let's take a look at what is the format of our data before we display our posts:
+
+```bash
+[
+   {
+      "device":"60:01:94:5E:47:0D",
+      "moisture":160,
+      "humidity":24
+   },
+   {
+      "device":"Telia-729B89",
+      "moisture":469,
+      "humidity":78
+   }
+]
+```
+
+
 # Step 7 — Add Network Section
 
 Go to the src/components/Home folder and create Network.jsx.
@@ -567,7 +585,7 @@ The way React Router works is by defining what I call a routing region. Inside t
 
 # Conclusion
 
-After creating a new repository in Github, I pushed the React code from my local machine to this new repo. I deployed and hosted the site on Vercel. If you prefer a different platform to deploy your React and Material.UI site, you can check out the [official react documentation on deployment](https://create-react-app.dev/docs/deployment) for your web application.
+After creating a new repository in Github, I pushed the React code from my local machine to this new repo. I deployed and hosted the site on Vercel. If you prefer a different platform to deploy your React and Material-UI web app, you can check out the [official react documentation on deployment](https://create-react-app.dev/docs/deployment) for your web application.
 
 
 To see the demo, [click here](https://greency.vercel.app/). 
