@@ -1,4 +1,4 @@
-# Tutorial: Building a Responsive IoT Dashboard UI (Web App) with React and Material-UI Grid Component
+# Tutorial: Building a Responsive IoT Dashboard Web App with React and Material-UI Grid Component
 
 Greency Id - React Dashboard UI for IoT Plant Monitor.
 
@@ -7,12 +7,27 @@ Greency Id - React Dashboard UI for IoT Plant Monitor.
 ![Greency Experience](public/experience.png)
 
 
-React is avery popular open source, front end [Javascript web framework and library](https://reactjs.org/) for creating user interfaces (UIs) and components. It is created and maintained by Facebook. React UI components are the building blocks of a React application.
-React is very suitable for building user interfaces for small and large applications by engineering teams.
+**React** is a very popular open source, front end [Javascript web framework and library](https://reactjs.org/) for creating user interfaces (UIs) and components. It is created and maintained by Facebook. React UI components are the building blocks of a React application. React is very suitable for building user interfaces for small and large applications by engineering teams.
+
+**Material-UI** are React components that implement Google's Material Design. Material Design is a design system popularized by Google which encapsulates their design principles and guidelines. With Material-UI, we can bring Google's Material Design to our React app. Using Material-UI with React provides a set of consistent design and user experience. material-UI can help you make beautiful apps. A variety of Material UI designs can be found [here](https://material-ui.com/discover-more/showcase/).
+
+The Grid Component
+
+In this tutorial, we will create an Internet of Things (IoT) Dashboard UI. [Grid](https://material-ui.com/components/grid/) is very valuable for building dashboards, e-commerce sites, blogs, portfolios, to mention a few. The grid adapts to screen size and orientation. This component can be used to showcase images, products, and people.
+
+If you'd like to see the source code on Github and demo of this project, you can view them here: [demo](https://greency.vercel.app/) | [source code](https://github.com/intellipeer/greency)
 
 
+# Let's Get Started!
 
+# Setting up your Greency App
 
+## Requirements
+
+- Install npm on your computer.
+- Install the latest version of Node.js or higher on your computer.
+- Open a text editor (IDE) such as Visual Studio Code to build our project.
+- Basic understanding of HTML, CSS, Javascript, JSX, and the Terminal.
 
 
 
