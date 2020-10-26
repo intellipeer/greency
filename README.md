@@ -440,6 +440,110 @@ export default function CardSection(){
 ```
 
 
+# Step 11 — Creating the Home page using Home.jsx
+
+Now, we can import the necessary components to create the home page by creating Home.jsx in the src/views folder.
+
+```bash
+import React from 'react';
+import Hero from '../components/Home/Hero'
+import Info from '../components/Home/Info'
+import Device from '../components/Home/Device'
+import Network from '../components/Home/Network'
+import CardSection from '../components/Home/CardSection'
+export default function Home(){
+    return (
+        <div>
+           
+            <br></br>
+            <br></br>
+            <br></br>
+            <Hero />
+            <br></br>
+            <Info />
+            <br></br>
+            <Device />
+            <br></br>
+            <Network />
+            <br></br>
+            <CardSection />
+        </div>
+    )
+}
+```
+
+# Step 12 — Creating the Devices page using Device.jsx
+
+Now, we can import the necessary components to create the home page by creating Home.jsx in the src/views folder.
+
+```bash
+import React from 'react';
+
+import Device from '../components/Home/Device'
+import Network from '../components/Home/Network'
+export default function Device2(){
+    return (
+        <div>
+            <br></br>
+            <br></br>
+            <br></br>
+            <Device />
+            <br></br>
+            <br></br>
+            <Network />
+        </div>
+    )
+}
+```
+# Step 13 — App.js and Deploying it
+
+We are going to install React Router. To do that, run the following command in the root folder of the project:
+
+```bash
+npm i react-router-dom --save
+```
+
+We have our content pages represented by the Home and Device views in the src/views folder. What we need to do is tie all of these together to create our app. This is where React Router comes in. To start using it, go to App.js, and ensure your import statements look as follows:
+
+```bash
+import React from 'react';
+import './App.css';
+import NavBar from './components/NavBar'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+ 
+} from "react-router-dom";
+
+import Home from './views/Home'
+import Device from './views/Device'
+function App() {
+  return (
+    <div style={{backgroundColor:'#f4f4f4'}}>
+       <NavBar/>
+      <Router>
+      <Switch>
+          <Route path="/devices">
+            <Device />
+          </Route>
+          <Route path="/" exact>
+            <Home />
+          </Route>
+        </Switch>
+      </Router>
+    </div>
+  );
+}
+
+export default App;
+```
+
+We are importing Route, Switch, and BrowserRouter from the react-router-dom NPM package we installed earlier. In addition, we are importing our Home and Device views or components since we will be referencing them as part of loading our content.
+
+The way React Router works is by defining what I call a routing region. Inside this region, you will have two things:
+- Your navigation links
+- The container to load your content into
 
 # Installation
 
