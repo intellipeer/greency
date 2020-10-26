@@ -34,7 +34,7 @@ export default function ButtonAppBar() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" className={classes.title}>
-            <a href="/"><img src={require('../greeny.png')} alt="logo" height="60"></img></a> 
+            <a href="/"><img src={require('../greency.png')} alt="logo" height="60"></img></a> 
           </Typography>
           <div className={classes.sub}>
           <Typography variant="subtitle1" gutterBottom>

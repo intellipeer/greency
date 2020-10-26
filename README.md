@@ -58,6 +58,8 @@ npm install -s @material-ui/icons
 
 # Step 3 — Navigation Bar
 
+Go to the src folder and add the app logo: greency.png. Logos can be obtained as asset from stock sites or generated using a site like [FreeLogoDesign](https://www.freelogodesign.org/)
+
 Go to the src/components folder and create NavBar.jsx. 
 
 ![Initial App](public/navbar.png)
@@ -125,7 +127,7 @@ export default function ButtonAppBar() {
 }
 ```
 
-<script src="https://gist.github.com/pikselstax/703c10daad591616c3745054e7052180.js"></script>
+
 
 # Installation
 
