@@ -474,7 +474,7 @@ export default function CardSection(){
 ```
 
 
-# Step 11 — Creating the Home page using Home.jsx
+# Step 10 — Creating the Home page using Home.jsx
 
 Now, we can import the necessary components to create the home page by creating Home.jsx in the src/views folder.
 
@@ -506,7 +506,7 @@ export default function Home(){
 }
 ```
 
-# Step 12 — Creating the Devices page using Device.jsx
+# Step 11 — Creating the Devices page using Device.jsx
 
 Now, we can import the necessary components to create the home page by creating Home.jsx in the src/views folder.
 
@@ -530,7 +530,7 @@ export default function Device2(){
 }
 ```
 
-# Step 13 — App.js and Deploying it
+# Step 12 — App.js and Deploying it
 
 We are going to install React Router. To do that, run the following command in the root folder of the project:
 
@@ -584,6 +584,10 @@ The way React Router works is by defining what I call a routing region. Inside t
 
 
 # Conclusion
+
+In this tutorial, we used Material-UI Grid component and React to create different sections of on the page.
+
+We used a create-react-app to setup a skeletal React.js application easily and Material-UI for styling. We fetched data from the REST API.
 
 After creating a new repository in Github, I pushed the React code from my local machine to this new repo. I deployed and hosted the site on Vercel. If you prefer a different platform to deploy your React and Material-UI web app, you can check out the [official react documentation on deployment](https://create-react-app.dev/docs/deployment) for your web application.
 
