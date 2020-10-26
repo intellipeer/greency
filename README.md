@@ -4,7 +4,7 @@ Greency Id - React Dashboard UI for IoT Plant Monitor.
 
 [Access the IoT Dashboard experience](https://m.me/OriginalCoastClothing?ref=GITHUB)
 
-![Messenger Experience](public/buildingblocks.jpg)
+![Messenger Experience](public/experience.png)
 
 
 
