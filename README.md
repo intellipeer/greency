@@ -31,11 +31,17 @@ If you'd like to see the source code on Github and demo of this project, you can
 
 # Step 1 — Create React App
 
+We will start by creating the initial React app. Open up the terminal in VS Code or otherwise and run the following commands.
+
 ```bash
 npx create-react-app grid-app
 cd grid-app
 npm start
 ```
+
+This would automatically open a web page. You can also type http://localhost:3000/ in your browser's URL bar.
+
+(public/initreactapp.png)
 
 # Installation
 
