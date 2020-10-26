@@ -29,6 +29,19 @@ If you'd like to see the source code on Github and demo of this project, you can
 - Open a text editor (IDE) such as Visual Studio Code to build our project.
 - Basic understanding of HTML, CSS, Javascript, JSX, and the Terminal.
 
+# Step 1 — Create React App
+
+```bash
+npx create-react-app grid-app
+cd grid-app
+npm start
+```
+
+# Installation
+
+Clone this repository on your local machine:
+
+
 
 
 
