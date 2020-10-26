@@ -7,7 +7,8 @@ Greency Id - React Dashboard UI for IoT Plant Monitor.
 ![Greency Experience](public/experience.png)
 
 
-
+React is avery popular open source, front end [Javascript web framework and library](https://reactjs.org/) for creating user interfaces (UIs) and components. It is created and maintained by Facebook. React UI components are the building blocks of a React application.
+React is very suitable for building user interfaces for small and large applications by engineering teams.
 
 
 
