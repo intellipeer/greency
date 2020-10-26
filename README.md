@@ -58,7 +58,15 @@ npm install -s @material-ui/icons
 
 # Step 3 — Navigation Bar
 
+Go to the src/components folder and create NavBar.jsx. 
+
 ![Initial App](public/navbar.png)
+
+Let's add our **Navigation Bar**. Basing our code from the [Material-UI's documentation](https://material-ui.com/components/app-bar/), we will be making a our app bar.
+
+We will start by importing the necessary components from Material-UI. We will apply the style, add the logo, add text, and add the buttons.
+
+<script src="https://gist.github.com/pikselstax/703c10daad591616c3745054e7052180.js"></script>
 
 # Installation
 
