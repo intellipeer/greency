@@ -130,6 +130,8 @@ export default function ButtonAppBar() {
 
 Go to the src/components/Home folder and create Hero.jsx.
 
+![Initial App](public/tutorial/hero.png)
+
 ```bash
 import React from 'react';
 import {Grid,Paper,Typography,Button} from '@material-ui/core'
@@ -171,6 +173,8 @@ export default function Hero(){
 
 Go to the src/components/Home folder and create Info.jsx.
 
+![Initial App](public/tutorial/info.png)
+
 ```bash
 import React from 'react';
 
@@ -199,6 +203,8 @@ export default function Info(){
 # Step 6 — Add Device Section
 
 Go to the src/components/Home folder and create Device.jsx.
+
+![Initial App](public/tutorial/device.png)
 
 ## Creating API call for Device
 
@@ -301,6 +307,8 @@ In the code above, I fetched data from the API and saved in our state. Let's tak
 # Step 7 — Add Network Section
 
 Go to the src/components/Home folder and create Network.jsx.
+
+![Initial App](public/tutorial/network.png)
 
 Let's open the Network.jsx in your code editor. I have set a local state with data because we are going to get some network and device data from the API.
 
@@ -444,6 +452,8 @@ export default function Cards(props) {
 # Step 9 — Add the Card Section with Grid Layout
 
 Go to the src/components/Home folder and create CardSection.jsx.
+
+![Initial App](public/tutorial/cards.png)
 
 ```bash
 import React from 'react';
