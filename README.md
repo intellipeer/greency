@@ -43,6 +43,21 @@ This would automatically open a web page. You can also type http://localhost:300
 
 ![Initial App](public/initreactapp.png)
 
+We now have a starter React app which is a single web page. This is a verygood starting point where we can customize what's been generated to build apps according to our needs.
+
+For more information on create-react-app, click this [link](https://github.com/facebook/create-react-app).
+
+# Step 2 — Adding Material-UI to our React App
+
+The next step is to install Material.UI which again takes a few lines of code.
+
+```bash
+npm install -s @material-ui/core
+npm install -s @material-ui/icons
+```
+
+# Step 3 — Navigation Bar
+
 # Installation
 
 Clone this repository on your local machine:
